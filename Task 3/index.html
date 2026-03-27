@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 3 Internship Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Advanced Styling & JavaScript Project</h1>
+    </header>
+
+    <section class="container">
+
+        <!-- Quiz Section -->
+        <div class="card">
+            <h2>Simple JavaScript Quiz</h2>
+            <p id="question">What is JavaScript?</p>
+
+            <button onclick="checkAnswer('wrong')">Database</button>
+            <button onclick="checkAnswer('correct')">Programming Language</button>
+            <button onclick="checkAnswer('wrong')">Operating System</button>
+
+            <p id="result"></p>
+        </div>
+
+
+        <!-- API Section -->
+        <div class="card">
+            <h2>Random Joke Generator (API)</h2>
+            <button onclick="getJoke()">Get Joke</button>
+            <p id="joke"></p>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>Internship Task 3 Project | Responsive + JS + API</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
